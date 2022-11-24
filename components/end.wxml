@@ -1,0 +1,17 @@
+<view class="video-end">
+  <view class="video-end-inner">
+    <view class="video-end-btn" catchtap="onReplay">
+      <image class="video-end-icon" mode="widthFix" src="../static/replay-icon.png"></image>
+      <text class="video-end-text">重播</text>
+    </view>
+    <view class="video-end-btn" catchtap="onNextOne">
+      <image class="video-end-icon" mode="widthFix" src="../static/next-icon.png"></image>
+      <text class="video-end-text">下一个</text>
+    </view>
+    <view class="video-end-btn">
+      <image class="video-end-icon" mode="widthFix" src="../static/share-icon.png"></image>
+      <text class="video-end-text">分享</text>
+      <button open-type="share" data-index="{{itemData.index}}" class="video-end-share">分享</button>
+    </view>
+  </view>
+</view>

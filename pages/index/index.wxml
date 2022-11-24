@@ -1,0 +1,3 @@
+<view class="yuanchuyun-swiper-video-player">
+  <video-swiper video-list="{{videoList}}" id="video1" bindplay="play" start-index="{{startIndex}}" generic:ui-view="ui-view" generic:end-view="end-view" generic:full-ad="ad-view" />
+</view>

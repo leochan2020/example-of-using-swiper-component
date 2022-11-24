@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "video-swiper": "plugin://video/swiper",
+    "ui-view": "../../components/ui",
+    "end-view": "../../components/end",
+    "ad-view": "../../components/ad"
+  }
+}

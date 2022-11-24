@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "plugins": {
+    "video": {
+      "version": "4.7.0",
+      "provider": "wxa73955b1db0b33cd"
+    }
+  }
+}

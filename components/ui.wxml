@@ -1,0 +1,21 @@
+<wxs module="main" src="../wxs/main.wxs" />
+<view class="ui-body" wx:if="{{itemData.id}}">
+  <view class="ui-inner">
+    <view class="ui-author">
+      <image mode="widthFix" src="{{itemData.authorAvatar}}" class="ui-author-avatar"></image>
+    </view>
+    <view class="ui-stat">
+      <image class="ui-stat-icon" mode="widthFix" src="../static/like.png"></image>
+      <view class="ui-stat-count">{{main.formatNumber(itemData.likeCount)}}</view>
+    </view>
+    <view class="ui-stat">
+      <image class="ui-stat-icon" mode="widthFix" src="../static/view.png"></image>
+      <view class="ui-stat-count">{{main.formatNumber(itemData.viewCount)}}</view>
+    </view>
+    <view class="ui-stat">
+      <image class="ui-stat-icon" mode="widthFix" src="../static/share.png"></image>
+      <view class="ui-stat-count">{{main.formatNumber(itemData.shareCount)}}</view>
+      <button class="ui-stat-share" data-index="{{itemData.index}}" open-type="share">分享</button>
+    </view>
+  </view>
+</view>
